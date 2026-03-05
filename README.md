@@ -1,6 +1,6 @@
 # 🎲 Digital Dice — TM4C123GH6PM
 
-A hardware proof-of-concept for a digital d6 built on the TM4C123GH6PM microcontroller. Press a button, get a random roll — displayed instantly via onboard LEDs.
+A hardware proof-of-concept for a digital d6 built on the TM4C123GH6PM microcontroller. Press a button, get a random roll,  displayed instantly via onboard LEDs.
 
 ---
 
@@ -17,7 +17,7 @@ A hardware proof-of-concept for a digital d6 built on the TM4C123GH6PM microcont
 | Component | Details |
 |---|---|
 | Microcontroller | TM4C123GH6PM (Tiva C Series) |
-| LEDs | 6 of 7 onboard GPIO-driven LED outputs used |
+| LEDs | RGB LED  |
 | Input | Onboard push button |
 
 ---
@@ -49,16 +49,7 @@ README.md     → You're here
 - [ ] Add roll animation (LEDs cycle before settling)
 - [ ] Improve randomness with entropy seeding
 - [ ] Support additional dice (d4, d8, d10, d12, d20)
-- [ ] Shake-to-roll via accelerometer (MPU-6050)
-- [ ] Buzzer feedback on roll
-- [ ] Custom PCB + 3D-printed enclosure
-- [ ] Low-power sleep/wake mode
-
----
-
-## Why I Built This
-
-This started as a hardware proof of concept and is growing into a full dice suite project. It's part of my ongoing work building embedded systems projects from scratch — from prototype to polished hardware product.
+- [ ] Show dice result/history on external LED Display
 
 ---
 
