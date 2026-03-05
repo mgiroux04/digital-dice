@@ -7,7 +7,7 @@ A hardware proof-of-concept for a digital d6 built on the TM4C123GH6PM microcont
 ## What It Does
 
 - Press a button to "roll" the die
-- A random number from 1–6 is generated
+- A random number from 1-6 is generated
 - The corresponding LED lights up to display the result
 
 ---
