@@ -22,5 +22,7 @@
 | 6    | Cyan    | 0         | 1          | 1           | 0x0C                  |
 
 > Off state: all pins LOW → 0x00
+> NOTE: d4 and d6 have the same outputs for numbers 1-4
 
 ---
+
