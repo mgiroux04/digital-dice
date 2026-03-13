@@ -7,8 +7,9 @@
 
 ---
 
-## Current State (v0.1 — Proof of Concept)
-- Button press triggers a random number generation (1–6)
+## Current State (v0.2 — Support for d4)
+- Switch 1 triggers a random number generation (1-4)
+- Switch 2 triggers a random number generation (1-6)
 - Result is displayed via RGB LED color on Port F
 - 3 GPIO pins (PF1, PF2, PF3) drive 6 unique colors through combinations
 
@@ -18,7 +19,8 @@
 ## Known Limitations
 - RNG may not be truly random (seeding may need improvement) 
 - No roll animation (LED snaps immediately to result)
-- Result is displayed exclusively during the duration of the button press.
+- Result is displayed exclusively during the duration of the button press 
+- Bug found when both buttons pressed, an output is still displayed
 ---
 
 ## Future Ideas
@@ -28,6 +30,6 @@
 - [ ] Improve RNG with a better entropy source 
 
 ### Medium Term
-- [ ] Support multiple dice types: d4, d8, d10, d12, d20
+- [ ] Support additional/multiple dice types: d8, d10, d12, d20
 - [ ] Mode button to switch between dice types
 - [ ] Display result on LED Display
